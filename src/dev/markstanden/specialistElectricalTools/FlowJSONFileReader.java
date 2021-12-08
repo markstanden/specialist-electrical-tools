@@ -13,7 +13,7 @@ public class FlowJSONFileReader {
 		data = mapper.readValue(new File(filePath), FlowJSONData.class);
 	}
 
-	public FlowJSONData getData() {
+	public FlowJSONData getParsedData() {
 		return this.data;
 	}
 }

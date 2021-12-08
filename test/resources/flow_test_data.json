@@ -1,0 +1,24 @@
+{
+   "data": [
+      {
+         "created": "2021-01-01T08:00:00Z",
+         "fullpath": "Root/Sub/Photolog/ToAdd/(Item-Description,Manufacturer,Product-I.D.) {Tag, TagWithValue=Value} [12345678] @Building,RM001,Location@",
+         "isFolder": "True"
+      },
+      {
+         "created": "2021-12-30T09:00:00Z",
+         "fullpath": "Root/Sub/Photolog/ToAdd/(Item-Description,Manufacturer,Product-I.D.) {Tag, TagWithValue=Value} [12345679] @Building,RM012.3A,Location@/",
+         "isFolder": "True"
+      },
+      {
+         "created": "2021-06-30T09:59:00Z",
+         "fullpath": "Root/Sub/Photolog/ToAdd/(Item-Description,Manufacturer,Product-I.D.) {Tag, TagWithValue=Value} [12345679] @Building,RM012.3A,Location@/Test File !Comment#Could Be Anything Here! \"Including This\" {And=This,Or=This}.test",
+         "isFolder": "False"
+      },
+      {
+         "created": "2021-06-30T09:59:00Z",
+         "fullpath": "Root/Sub/Photolog/ToAdd/(Item-Description,Manufacturer,Product-I.D.){Tag,TagWithValue=Value}[12345679]@Building,RM012.3A,Location@/Test File!Comment=Could Be Anything Here!\"Including This\"{And=This,Or=This}.test",
+         "isFolder": "False"
+      }
+   ]
+}

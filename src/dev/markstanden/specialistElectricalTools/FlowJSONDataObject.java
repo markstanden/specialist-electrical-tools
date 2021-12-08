@@ -5,16 +5,16 @@ import java.time.ZonedDateTime;
 @SuppressWarnings ("ALL")
 public class FlowJSONDataObject {
 
-	String created;
+	ZonedDateTime created;
 	String fullpath;
 	boolean isFolder;
 
-	public String getCreated() {
+	public ZonedDateTime getCreated() {
 		return this.created;
 	}
 
 	public void setCreated(String dateTime) {
-		this.created = dateTime;
+		this.created = ZonedDateTime.parse(dateTime);
 	}
 
 	public String getFullPath() {

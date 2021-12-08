@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FlowDataTests {
 	final String BASE_PATH = "Root/Sub/Photolog/ToAdd";
 	final String BASE_FOLDER = "(Item-Description,Manufacturer,Product-I.D.) {Tag, TagWithValue=Value} [12345678] @Building,RM012.3A,Location@";
-	final String BASE_FILENAME = "Test File !Comment#Could Be Anything Here \"Including This\".test";
+	final String BASE_FILENAME = "Test File !Comment#Could Be Anything Here! \"Including This\" {And=This,Or=This}.test";
 	final String BASE_RELATIVEPATH = "Building/" + BASE_FOLDER;
 	final String BASE_RELATIVEFILEPATH = BASE_RELATIVEPATH + "/" + BASE_FILENAME;
 	final String BASE_FULLFILEPATH = BASE_PATH + "/" + BASE_RELATIVEFILEPATH;
