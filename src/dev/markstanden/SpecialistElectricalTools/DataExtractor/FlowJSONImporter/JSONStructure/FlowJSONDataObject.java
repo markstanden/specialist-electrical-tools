@@ -1,13 +1,13 @@
-package dev.markstanden.specialistElectricalTools;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowJSONImporter.JSONStructure;
 
 import java.time.ZonedDateTime;
 
 @SuppressWarnings ("ALL")
 public class FlowJSONDataObject {
 
-	ZonedDateTime created;
-	String fullpath;
-	boolean isFolder;
+	private ZonedDateTime created;
+	private String fullpath;
+	private boolean isFolder;
 
 	public ZonedDateTime getCreated() {
 		return this.created;
@@ -34,14 +34,3 @@ public class FlowJSONDataObject {
 	}
 
 }
-
-//	{
-//   "data": [
-//      {
-//         "created": "2021-12-01T08:11:36Z",
-//         "fullpath": "Shared Documents/Photolog/ToAdd/HatherlyBSU/(Sensor Taps,Broen,El){FixedItem}[] @Ha,F08,Behind IPS Panel@",
-//         "isFolder": "True"
-//      },
-//	   ]
-//	}
-

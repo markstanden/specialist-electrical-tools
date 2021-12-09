@@ -1,13 +1,9 @@
-package dev.markstanden.specialistElectricalTools;
+package dev.markstanden.SpecialistElectricalTools;
 
 import java.time.LocalDateTime;
-import java.time.ZonedDateTime;
 import java.util.ArrayList;
 
 public class LogItem {
-
-	private final LogInputSource source;
-
 	private ArrayList<String> assetTagList;
 	private Location location;
 	private Product product;
@@ -21,12 +17,9 @@ public class LogItem {
 	private boolean isTested;
 	private LocalDateTime testDate;
 
-	LogItem(String filePath, ZonedDateTime createdDate, boolean isFolder) {
-		this.source = new FlowData(filePath, createdDate, isFolder);
+	LogItem() {
+
 	}
 
-	public String getDigitalLocation() {
-		return source.getSourceLocation();
-	}
 }
 

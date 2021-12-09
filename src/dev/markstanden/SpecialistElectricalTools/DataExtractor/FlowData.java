@@ -1,4 +1,4 @@
-package dev.markstanden.specialistElectricalTools;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor;
 
 import java.time.LocalDate;
 import java.time.ZonedDateTime;
@@ -13,7 +13,7 @@ public class FlowData implements LogInputSource {
 	private final LocalDate fileCreatedDate;
 	private final boolean isFolder;
 
-	FlowData(String filePath, ZonedDateTime createdDate, boolean isFolder) {
+	public FlowData(String filePath, ZonedDateTime createdDate, boolean isFolder) {
 		String cleanedFilePath = removeSlashesIfPresent(filePath);
 		this.fileCreatedDate = createdDate.toLocalDate();
 		this.isFolder = isFolder;

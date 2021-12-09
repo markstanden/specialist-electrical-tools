@@ -1,4 +1,4 @@
-package dev.markstanden.specialistElectricalTools;
+package dev.markstanden.SpecialistElectricalTools;
 
 import java.util.Date;
 

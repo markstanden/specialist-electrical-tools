@@ -1,5 +1,6 @@
 package dev.markstanden.specialistElectricalTools;
 
+import dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowJSONImporter.FlowJSONFileReader;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -14,7 +15,7 @@ class FlowJSONFileReaderTest {
 	public void checkJSONFileImportNotNull() throws IOException {
 		final String filePath = "test/resources/flow_test_data.json";
 		FlowJSONFileReader reader = new FlowJSONFileReader(filePath);
-		assertNotNull(reader.data);
+		assertNotNull(reader.getParsedData());
 	}
 
 	@Test
@@ -28,7 +29,6 @@ class FlowJSONFileReaderTest {
 	@Test
 	public void checkJSONFileImportsCorrectValues() throws IOException {
 		final String filePath = "test/resources/flow_test_data.json";
-
 		FlowJSONFileReader reader = new FlowJSONFileReader(filePath);
 
 		ZonedDateTime created;
