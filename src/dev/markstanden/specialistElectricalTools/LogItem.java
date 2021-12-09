@@ -1,6 +1,7 @@
 package dev.markstanden.specialistElectricalTools;
 
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 import java.util.ArrayList;
 
 public class LogItem {
@@ -20,8 +21,8 @@ public class LogItem {
 	private boolean isTested;
 	private LocalDateTime testDate;
 
-	LogItem(String filePath, String createdDateString, boolean isFolder) {
-		this.source = new FlowData(filePath, createdDateString, isFolder);
+	LogItem(String filePath, ZonedDateTime createdDate, boolean isFolder) {
+		this.source = new FlowData(filePath, createdDate, isFolder);
 	}
 
 	public String getDigitalLocation() {

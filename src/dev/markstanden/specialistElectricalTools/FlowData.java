@@ -13,9 +13,9 @@ public class FlowData implements LogInputSource {
 	private final LocalDate fileCreatedDate;
 	private final boolean isFolder;
 
-	FlowData(String filePath, String createdDateString, boolean isFolder) {
+	FlowData(String filePath, ZonedDateTime createdDate, boolean isFolder) {
 		String cleanedFilePath = removeSlashesIfPresent(filePath);
-		this.fileCreatedDate = ZonedDateTime.parse(createdDateString).toLocalDate();
+		this.fileCreatedDate = createdDate.toLocalDate();
 		this.isFolder = isFolder;
 		this.relativeFolderPath = this.stripRelativePathFromFilePath(cleanedFilePath);
 		this.folder = this.stripFolderFromFilePath(cleanedFilePath);
