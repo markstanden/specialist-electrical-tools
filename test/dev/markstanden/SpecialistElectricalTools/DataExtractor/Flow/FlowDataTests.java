@@ -1,6 +1,6 @@
-package dev.markstanden.SpecialistElectricalTools;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow;
 
-import dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowData;
+import dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow.FlowData;
 import org.junit.jupiter.api.Test;
 
 import java.time.ZonedDateTime;

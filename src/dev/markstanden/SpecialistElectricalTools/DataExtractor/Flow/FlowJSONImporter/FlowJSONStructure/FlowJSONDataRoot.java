@@ -1,4 +1,4 @@
-package dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowJSONImporter.JSONStructure;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow.FlowJSONImporter.FlowJSONStructure;
 
 import java.util.ArrayList;
 

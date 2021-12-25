@@ -1,7 +1,7 @@
-package dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowJSONImporter;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow.FlowJSONImporter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowJSONImporter.JSONStructure.FlowJSONDataRoot;
+import dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow.FlowJSONImporter.FlowJSONStructure.FlowJSONDataRoot;
 
 import java.io.File;
 import java.io.IOException;

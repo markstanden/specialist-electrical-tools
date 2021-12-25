@@ -1,6 +1,6 @@
-package dev.markstanden.specialistElectricalTools;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow.FlowJSONImporter;
 
-import dev.markstanden.SpecialistElectricalTools.DataExtractor.FlowJSONImporter.FlowJSONFileReader;
+import dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow.FlowJSONImporter.FlowJSONFileReader;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;

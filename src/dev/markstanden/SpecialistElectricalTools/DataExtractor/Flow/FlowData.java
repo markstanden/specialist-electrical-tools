@@ -1,4 +1,6 @@
-package dev.markstanden.SpecialistElectricalTools.DataExtractor;
+package dev.markstanden.SpecialistElectricalTools.DataExtractor.Flow;
+
+import dev.markstanden.SpecialistElectricalTools.DataExtractor.LogInputSource;
 
 import java.time.LocalDate;
 import java.time.ZonedDateTime;
